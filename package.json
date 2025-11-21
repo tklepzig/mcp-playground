@@ -1,0 +1,16 @@
+{
+  "name": "my-mcp-server",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.ts",
+    "inspect": "npx --yes @modelcontextprotocol/inspector@latest node server.ts"
+  },
+  "dependencies": {
+    "@cfworker/json-schema": "^4.1.1",
+    "@modelcontextprotocol/sdk": "^1.22.0",
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3",
+    "zod": "^3.25.76"
+  }
+}
